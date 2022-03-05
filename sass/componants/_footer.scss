@@ -1,0 +1,29 @@
+footer {
+  padding: 40px;
+  background-color: #1b1b1f;
+  color: #eee;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      width: 100px;
+      img {
+        width: 100%;
+      }
+    }
+    p {
+      i {
+        color: red;
+      }
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  footer {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+}
