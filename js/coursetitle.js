@@ -18,15 +18,15 @@ function getData() {
         <div class="img">
             <img src="${data.data[i].img}" alt="" />
         </div>
-        <h2>${data.data[i].title}</h2>
+        <h2><a href="${data.data[i].url}">${data.data[i].title}</a></h2>
        </div>
        `;
         mycoursesContainer.innerHTML += myBox;
       }
-      document.querySelectorAll("#courses .box").forEach((box) => {
-        box.addEventListener("click", (e) => {
-          console.log(e.currentTarget.dataset.cont);
-        });
-      });
+      // document.querySelectorAll("#courses .box").forEach((box) => {
+      //   box.addEventListener("click", (e) => {
+      //     console.log(e.currentTarget.dataset.cont);
+      //   });
+      // });
     });
 }

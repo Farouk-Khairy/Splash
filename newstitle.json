@@ -1,12 +1,14 @@
 {
   "data": [
     {
-      "img": "media/img/download.png",
-      "title": "فن اختيار الألوان"
+      "img": "media/img/co.jpg",
+      "title": "فن اختيار الألوان",
+      "url": ""
     },
     {
-      "img": "media/img/download.png",
-      "title": "النسبة الذهبية"
+      "img": "media/img/mo.jpg",
+      "title": "النسبة الذهبية",
+      "url": ""
     }
   ]
 }

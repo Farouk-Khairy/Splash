@@ -2,15 +2,23 @@
   "data": [
     {
       "img": "media/img/download.png",
-      "title": "Photoshop"
+      "title": "Photoshop",
+      "url": "pages/ps.html"
     },
     {
       "img": "media/img/Adobe_Illustrator_CC_icon.svg.png",
-      "title": "Illustrtor"
+      "title": "Illustrator",
+      "url": "pages/ai.html"
+    },
+    {
+      "img": "media/img/Adobe_InDesign_CC_icon.svg.png",
+      "title": "In Design",
+      "url": "pages/in.html"
     },
     {
       "img": "media/img/images-12.jpeg",
-      "title": "Branding"
+      "title": "Branding",
+      "url": "pages/branding.html"
     }
   ]
 }

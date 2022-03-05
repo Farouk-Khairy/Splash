@@ -18,7 +18,7 @@ function getData() {
         <div class="img">
             <img src="${data.data[i].img}" alt="" />
         </div>
-        <h2>${data.data[i].title}</h2>
+        <h2><a href="${data.data[i].url}">${data.data[i].title}</a></h2>
        </div>
        `;
         container.innerHTML += myBox;

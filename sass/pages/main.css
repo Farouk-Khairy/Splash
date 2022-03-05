@@ -28,6 +28,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: #33333b;
 }
 
 hr {
@@ -71,7 +72,8 @@ nav .container {
 }
 
 nav .container .logo {
-  width: 100px;
+  width: 40px;
+  height: 40px;
 }
 
 nav .container .logo img {
@@ -128,6 +130,13 @@ nav .container .toggle {
 }
 
 @media (max-width: 575.98px) {
+  nav .container .logo {
+    width: 30px;
+    height: 30px;
+  }
+  nav .container .logo img {
+    width: 100%;
+  }
   nav .container .list {
     position: absolute;
     left: 0;
@@ -175,7 +184,8 @@ footer .container {
 }
 
 footer .container .logo {
-  width: 100px;
+  width: 40px;
+  height: 40px;
 }
 
 footer .container .logo img {
@@ -309,7 +319,6 @@ footer .container p i {
 
 #courses .container .title .heading h2 {
   margin: 0 10px;
-  color: #33333b;
 }
 
 #courses .container .title .heading span {
