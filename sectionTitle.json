@@ -1,0 +1,36 @@
+{
+  "courses": [
+    {
+      "img": "media/img/ps.png",
+      "title": "Photoshop",
+      "url": "pages/ps.html"
+    },
+    {
+      "img": "media/img/ai.png",
+      "title": "Illustrator",
+      "url": "pages/ai.html"
+    },
+    {
+      "img": "media/img/id.png",
+      "title": "In Design",
+      "url": "pages/id.html"
+    },
+    {
+      "img": "media/img/br.jpg",
+      "title": "Branding",
+      "url": "pages/br.html"
+    }
+  ],
+  "news": [
+    {
+      "img": "media/img/golden-ratio.jpg",
+      "title": "Photoshop",
+      "url": "pages/ps.html"
+    },
+    {
+      "img": "media/img/color.jpg",
+      "title": "Illustrator",
+      "url": "pages/ai.html"
+    }
+  ]
+}
