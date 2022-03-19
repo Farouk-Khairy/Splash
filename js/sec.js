@@ -17,7 +17,7 @@ function getSection() {
             <div class="img">
               <img src="${data.courses[i].img}" alt="photo" />
             </div>
-            <div class="name"><a href="${data.courses[i].url}" target="_blank">${data.courses[i].title}</a></div>
+            <div class="name"><a href="${data.courses[i].url}">${data.courses[i].title}</a></div>
           </div>
         `;
         coursesContainer.innerHTML += courseBox;
