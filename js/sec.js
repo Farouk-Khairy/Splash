@@ -29,8 +29,8 @@ function getSection() {
                 <div class="img">
                   <img src="${data.news[i].img}" alt="photo" />
                 </div>
-                <div class="name">${data.news[i].title}</div>
-              </div>
+                <div class="name"><a href="${data.news[i].url}">${data.news[i].title}</a></div>
+                </div>
             `;
         newsContainer.innerHTML += newsBox;
       }

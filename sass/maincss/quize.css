@@ -107,7 +107,7 @@ a {
 }
 
 .nav .container nav ul li a:hover {
-  color: #372568;
+  color: #bebebe;
 }
 
 .nav .container nav ul li:first-of-type {
@@ -204,7 +204,7 @@ body {
 }
 
 .body .nav {
-  background-color: #aaa;
+  background-color: #3125d6;
   padding: 5px 0;
 }
 

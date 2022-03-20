@@ -8,9 +8,9 @@ function getAiData() {
     list[i].addEventListener("click", (e) => {
       //   console.log(e.target.dataset.cont);
       list.forEach((li) => {
-        li.style.color = "#aaa";
+        li.style.color = "#fff";
       });
-      e.target.style.color = "green";
+      e.target.style.color = "rgb(165, 165, 165)";
       fetch(data)
         .then((res) => {
           return res.json();

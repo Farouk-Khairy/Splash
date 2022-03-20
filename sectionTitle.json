@@ -24,13 +24,13 @@
   "news": [
     {
       "img": "media/img/golden-ratio.jpg",
-      "title": "Photoshop",
-      "url": "pages/ps.html"
+      "title": "النسبة الذهبية",
+      "url": "pages/golden-ratio.html"
     },
     {
       "img": "media/img/color.jpg",
-      "title": "Illustrator",
-      "url": "pages/ai.html"
+      "title": "قاعدة الألوان",
+      "url": "pages/colors.html"
     }
   ]
 }

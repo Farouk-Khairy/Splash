@@ -43,8 +43,10 @@ function finalResutlt() {
   if (score > 6) {
     console.log(score);
     console.log("you are passed");
+    window.open("../../pages/quize/win.html");
   } else {
     console.log(score);
     console.log("you are looser");
+    window.open("../../pages/quize/loose.html");
   }
 }
