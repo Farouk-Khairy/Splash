@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "companyLogo": "../media/img/ai.png",
+      "companyName": "name1",
+      "companyDescription": "description1"
+    },
+    {
+      "companyLogo": "../media/img/ai.png",
+      "companyName": "name2",
+      "companyDescription": "description2"
+    },
+    {
+      "companyLogo": "../media/img/ai.png",
+      "companyName": "name3",
+      "companyDescription": "description3"
+    },
+    {
+      "companyLogo": "../media/img/ai.png",
+      "companyName": "name4",
+      "companyDescription": "description4"
+    },
+    {
+      "companyLogo": "../media/img/ai.png",
+      "companyName": "name5",
+      "companyDescription": "description5"
+    },
+    {
+      "companyLogo": "../media/img/ai.png",
+      "companyName": "name6",
+      "companyDescription": "description6"
+    }
+  ]
+}
