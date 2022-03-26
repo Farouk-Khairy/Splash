@@ -107,7 +107,7 @@ a {
 }
 
 .nav .container nav ul li a:hover {
-  color: #bebebe;
+  color: #c9e7f2;
 }
 
 .nav .container nav ul li:first-of-type {
@@ -236,7 +236,7 @@ footer .container p i {
 }
 
 .nav {
-  background-color: #3125d6;
+  background-color: #03318c;
   padding: 5px 0;
 }
 
@@ -263,7 +263,7 @@ footer .container p i {
 }
 
 .body .content aside {
-  background-color: #292929;
+  background-color: #024059;
   width: 20%;
   height: 100%;
   display: -webkit-box;
