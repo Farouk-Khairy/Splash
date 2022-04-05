@@ -16,18 +16,13 @@ function getAiData() {
           return res.json();
         })
         .then((data) => {
-          //   console.log(data.data[e.target.dataset.cont].vedioURLmp4);
-          //   console.log(data.data[e.target.dataset.cont].vedioURLogg);
+          // console.log(data.data[e.target.dataset.cont].vedioURLId);
+          // console.log(data.data[e.target.dataset.cont].vedioURLogg);
           mediaContainer.innerHTML = `
-            <video width="550" controls>
-            <source src="${
-              data.data[e.target.dataset.cont].vedioURLmp4
-            }" type="video/mp4" />
-            <source src="${
-              data.data[e.target.dataset.cont].vedioURLogg
-            }" type="video/ogg" />
-            Your browser does not support HTML5 video.
-          </video>
+          <iframe width="550" src="https://www.youtube.com/embed/${
+            data.data[e.target.dataset.cont].vedioURLId
+          }">
+          </iframe>
             `;
         });
     });

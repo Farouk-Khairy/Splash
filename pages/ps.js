@@ -1,5 +1,5 @@
 const list = document.querySelectorAll("aside ul li");
-const data = "ai.json";
+const data = "ps.json";
 let mediaContainer = document.querySelector(".content-holder");
 // console.log(mediaContainer.innerHTML);
 getAiData();
