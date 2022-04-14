@@ -9,7 +9,7 @@ fetch(myData)
       let myBox = `
       <div class="box">
         <img src="${com.companyLogo}" alt="photo">
-        <h3><a href="#">${com.companyName}</a></h3>
+        <h3><a href="${com.companyURL}">${com.companyName}</a></h3>
       </div>
       `;
       jobContainer.innerHTML += myBox;
